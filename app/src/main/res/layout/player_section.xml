@@ -1,0 +1,317 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/top_corner_view"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:showIn="@layout/activity_dashboard">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/bg_image_height"
+            android:src="@drawable/bgicon" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginHorizontal="@dimen/margin_horizontal"
+            android:layout_marginBottom="@dimen/margin_bottom"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/rays"
+                android:layout_width="@dimen/rays_width"
+                android:layout_height="@dimen/rays_height"
+                android:layout_centerInParent="true"
+                android:paddingBottom="@dimen/rays_padding_bottom"
+                android:src="@drawable/rays" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:weightSum="3">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="@dimen/margin_bottom_first"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/player_2"
+                        android:layout_width="@dimen/player_image_size"
+                        android:layout_height="@dimen/player_image_size"
+                        android:src="@drawable/player2_image"
+                        app:civ_border_color="@color/white"
+                        app:civ_border_width="4dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/player_2"
+                        android:layout_marginTop="@dimen/margin_top"
+                        android:text="Rahul"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/player_name_text_size" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/player_2"
+                        android:text="1,00,789 pts"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/player_points_text_size" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/player_2"
+                        android:text="\u20B915,500"
+                        android:textColor="@color/yellow"
+                        android:textSize="@dimen/player_amount_text_size"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_bottom_margin_bottom"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="@dimen/crown_image_width"
+                        android:layout_height="@dimen/crown_image_height"
+                        android:layout_marginBottom="-5dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/crown_final" />
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/player_1"
+                        android:layout_width="@dimen/player1_image_size"
+                        android:layout_height="@dimen/player1_image_size"
+                        android:src="@drawable/player1_image"
+                        app:civ_border_color="@color/yellow_light"
+                        app:civ_border_width="4dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/player_2"
+                        android:layout_marginTop="@dimen/margin_top"
+                        android:text="Soni"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/player_name_text_size" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/player_1"
+                        android:text="1,00,789 pts"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/player_points_text_size" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/player_1"
+                        android:text="\u20B915,500"
+                        android:textColor="@color/yellow"
+                        android:textSize="@dimen/player_amount_text_size"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/pleyer_3"
+                        android:layout_width="@dimen/player_image_size"
+                        android:layout_height="@dimen/player_image_size"
+                        android:src="@drawable/player3_image"
+                        app:civ_border_color="@color/yellow"
+                        app:civ_border_width="4dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/player_2"
+                        android:layout_marginTop="@dimen/margin_top"
+                        android:text="Moshin"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/player_name_text_size" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1,00,789 pts"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/player_points_text_size" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/pleyer_3"
+                        android:text="\u20B915,500"
+                        android:textColor="@color/yellow"
+                        android:textSize="@dimen/player_amount_text_size"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/leaderBoard"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/leaderboard_height"
+            android:layout_alignParentBottom="true"
+            android:layout_marginHorizontal="@dimen/margin_horizontal"
+            android:src="@drawable/leaderboardicon" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/numberTextView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:text="2"
+                    android:textColor="@color/second_color"
+                    android:textSize="@dimen/number_text_size"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/ordinalTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="nd"
+                    android:textColor="@color/second_color"
+                    android:textSize="@dimen/ordinal_text_size"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toEndOf="@id/numberTextView2"
+                    app:layout_constraintTop_toTopOf="@id/numberTextView2" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="35dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/numberTextView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1"
+                    android:textColor="@color/yellow_light"
+                    android:textSize="50dp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/ordinalTextView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="st"
+                    android:textColor="@color/yellow_light"
+                    android:textSize="@dimen/ordinal_indicator_size"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toEndOf="@id/numberTextView1"
+                    app:layout_constraintTop_toTopOf="@id/numberTextView1" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/numberTextView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_top"
+                    android:layout_marginEnd="@dimen/margin_bottom"
+                    android:text="3"
+                    android:textColor="@color/third_color"
+                    android:textSize="@dimen/number_text_size"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/ordinalTextView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="rd"
+                    android:textColor="@color/third_color"
+                    android:textSize="@dimen/ordinal_text_size"
+                    app:layout_constraintStart_toEndOf="@id/numberTextView3"
+                    app:layout_constraintTop_toTopOf="@id/numberTextView3" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:scrollbars="vertical"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            tools:listitem="@layout/row_user_rank" />
+
+        <include
+            android:id="@+id/currentUserRow"
+            layout="@layout/row_user_rank"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+</LinearLayout>

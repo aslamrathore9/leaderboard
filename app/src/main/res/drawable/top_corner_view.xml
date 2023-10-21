@@ -1,0 +1,10 @@
+<!-- rounded_top_corner_background.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/leaderboard_bg" />
+            <corners android:topLeftRadius="25dp"
+                android:topRightRadius="25dp"/>
+        </shape>
+    </item>
+</layer-list>

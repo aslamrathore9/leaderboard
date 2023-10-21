@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="top_spacing">16dp</dimen>
+    <dimen name="text_size_large">22sp</dimen>
+    <dimen name="text_size_medium">16sp</dimen>
+    <dimen name="circle_image_size">40dp</dimen>
+    <dimen name="margin_start">10dp</dimen>
+    <dimen name="row_height">60dp</dimen>
+
+    <dimen name="margin_horizontal">50dp</dimen>
+    <dimen name="margin_top">16dp</dimen>
+    <dimen name="margin_bottom_margin_bottom">40dp</dimen>
+    <dimen name="margin_bottom_first">20dp</dimen>
+    <dimen name="bg_image_height">170dp</dimen>
+    <dimen name="rays_width">250dp</dimen>
+    <dimen name="margin_bottom">105dp</dimen>
+    <dimen name="rays_height">250dp</dimen>
+    <dimen name="rays_padding_bottom">70dp</dimen>
+    <dimen name="leaderboard_height">140dp</dimen>
+    <dimen name="player_image_size">50dp</dimen>
+    <dimen name="player_name_text_size">14sp</dimen>
+    <dimen name="player_points_text_size">12sp</dimen>
+    <dimen name="player_amount_text_size">15sp</dimen>
+    <dimen name="crown_image_width">55dp</dimen>
+    <dimen name="crown_image_height">25dp</dimen>
+    <dimen name="player1_image_size">60dp</dimen>
+    <dimen name="number_text_size">35sp</dimen>
+    <dimen name="ordinal_text_size">14sp</dimen>
+    <dimen name="ordinal_indicator_size">18sp</dimen>
+
+</resources>

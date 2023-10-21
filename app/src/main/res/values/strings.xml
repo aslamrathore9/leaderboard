@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LeaderBoardT</string>
+
+    <string name="how_it_works">How it works?</string>
+    <string name="leaderboard">Leaderboard</string>
+    <string name="rupee_symbol">\u20B9</string>
+</resources>

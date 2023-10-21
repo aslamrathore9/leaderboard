@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#e13131</color>
+    <color name="darkRed">#ad2626</color>
+    <color name="leaderboard_bg">#0B3455</color>
+    <color name="c_usercolor">#078BC6</color>
+    <color name="yellow">#FFC107</color>
+    <color name="yellow_light">#FFDE7C</color>
+    <color name="second_color">#cdd6e2</color>
+    <color name="third_color">#ffd29b</color>
+</resources>
