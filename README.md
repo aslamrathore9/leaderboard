@@ -26,7 +26,7 @@ Build and run the project on your Android device or emulator.
 Explore the leaderboard, scroll through the list, and observe the sticky scrolling behavior.
 
 ## Credits
-This project is developed by ###Aslam Rathore. Contributions are welcome; feel free to submit issues or pull requests.
+This project is developed by ### Aslam Rathore. Contributions are welcome; feel free to submit issues or pull requests.
 
 
 Feedback and Support
