@@ -18,7 +18,7 @@ Clone the repository to your local machine:
 
 ##bash
 Copy code
-git clone https://github.com/yourusername/leaderboard-android.git
+git clone https://github.com/aslamrathore9/leaderboard.git
 Open the project in Android Studio.
 
 Build and run the project on your Android device or emulator.
@@ -26,15 +26,13 @@ Build and run the project on your Android device or emulator.
 Explore the leaderboard, scroll through the list, and observe the sticky scrolling behavior.
 
 Credits
-This project is developed by [Your Name]. Contributions are welcome; feel free to submit issues or pull requests.
+This project is developed by ###Aslam Rathore. Contributions are welcome; feel free to submit issues or pull requests.
 
 License
 This project is licensed under the MIT License.
 
 Feedback and Support
-If you have any questions or feedback regarding this project, please don't hesitate to reach out by opening an issue on GitHub or contacting us at [your@email.com].
-
-In this README section, you've provided a brief overview of the project, its key features, how to use it, and information on contributions, licensing, and support. Make sure to replace [yourusername], [Your Name], and [your@email.com] with your actual GitHub username, name, and contact information. You can also customize and expand the README further as needed to provide more details about your project.
+If you have any questions or feedback regarding this project, please don't hesitate to reach out by opening an issue on GitHub or contacting us at aslamrathore9@gmail.com.
 
 
 ![ezgif-2-4f55794ee9](https://github.com/aslamrathore9/leaderboard/assets/63500912/f203d530-5a22-4ac2-9394-10b9ec8116f2)
